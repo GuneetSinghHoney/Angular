@@ -1,0 +1,11 @@
+<h1>Programming Books</h1>
+
+<button [disabled]='isDisabled'> Show Books</button>
+<ul>
+    <li>{{name}} by {{author}}</li>
+    <li>{{name1}} by {{author1}}</li>
+</ul>
+
+<input type="text" [(ngModel)]="output" />
+
+<h1>{{ output }}</h1>
