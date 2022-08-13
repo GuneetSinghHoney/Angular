@@ -1,1 +1,1 @@
-# Angular
+Angular learning practice project
